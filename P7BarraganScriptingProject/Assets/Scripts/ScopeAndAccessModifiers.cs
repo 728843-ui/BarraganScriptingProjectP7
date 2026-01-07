@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
-public class ScopeAndAccessModifier : MonoBehaviour
+public class ScopeAndAccessModifiers : MonoBehaviour
 {
-
     public int alpha = 5;
 
 
