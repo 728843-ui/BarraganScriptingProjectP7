@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LinearInterpolation : MonoBehaviour
-{
+{/*
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +13,9 @@ public class LinearInterpolation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
+        //Example this line of code makes it so that...
+
+
     }
+    */
 }
