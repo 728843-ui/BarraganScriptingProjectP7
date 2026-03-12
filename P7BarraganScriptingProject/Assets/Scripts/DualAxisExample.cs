@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DualAxisExample : MonoBehaviour
+{
+    public float hRange = 5f;
+    public float vRange = 5f;
+
+    void Update()
+    {
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+        float xPos = h * hRange;
+        float yPos = v * vRange;
+
+        transform.position = new Vector3(xPos, 0, yPos);
+
+        Debug.Log("Horizontal Value: " + h.ToString("F2"));
+        Debug.Log("Vertical Value: " + v.ToString("F2"));
+    }
+}
